@@ -1,0 +1,128 @@
+/*banner start*/
+.banner-area {
+    position: relative;
+    min-height: 350px;
+    color: #fff;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-backface-visibility: hidden;
+    background-image: url("../storage/net/cover.jpg");
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.banner-title{
+    color: #fff;
+    /*text-transform: uppercase;*/
+    font-size: 58px;
+    font-weight: 900;
+}
+.banner-heading{
+    text-align: center;
+}
+
+.breadcrumb {
+    padding: 0;
+    background: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.breadcrumb a:hover {
+    color: #fff;
+}
+
+/*--banner end--*/
+
+/*for vertical line*/
+.vertical-line{
+    border-left: 3px solid #D5DBDB;
+    height: 50px;
+}
+@media (max-width: 768px) {
+        .vertical-line{
+            display: none;
+        }
+
+}
+/* index banner*/
+.index-area {
+    position: relative;
+    min-height: 215px;
+    color: #fff;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-backface-visibility: hidden;
+    background-image: url("../storage/net/banner3.jpg");
+}
+.category-title{
+    color: #fff;
+    /*text-transform: uppercase;*/
+    font-size: 58px;
+    font-weight: 900;
+}
+/*for communication contact*/
+.communication-area {
+    position: relative;
+    min-height: 215px;
+    color: #fff;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-backface-visibility: hidden;
+    background-image: url("../storage/net/communication.jpg");
+}
+.communication-title{
+    color: #fff;
+    /*text-transform: uppercase;*/
+    font-size: 58px;
+    font-weight: 900;
+}
+.service_name{
+    /*font-size: large;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.hr{
+  width: 50px;
+}
+.horizontal_line{
+    border:2px solid #F1C40F;
+    border-width: thin;
+    width: 150px;
+}
+.site_content:hover .horizontal_line{
+        border:2px solid #1E8449 ;
+        border-width: thin;
+        width: 150px;
+        transition: all 2.5s ease-out;
+}
+/*footer banner*/
+/*banner start*/
+.footer-banner {
+    position: relative;
+    min-height: 350px;
+    color: #fff;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-backface-visibility: hidden;
+    background-image: url("../storage/icons/footer.jpg");
+}
+
+
